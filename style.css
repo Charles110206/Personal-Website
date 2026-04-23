@@ -175,3 +175,25 @@ footer {
     height: 120px;
   }
 }
+.download-btn {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 12px 28px;
+  border-radius: 50px;
+  text-decoration: none;
+  background: #0d6efd;
+  color: white;
+  transition: 0.3s;
+}
+
+.download-btn:hover {
+  background: #0b5ed7;
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  .download-btn {
+    width: 100%;
+    text-align: center;
+  }
+}
